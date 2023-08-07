@@ -1,5 +1,5 @@
 {% set name = "astropy-iers-data" %}
-{% set version = "0.2023.7.31.0.32.45" %}
+{% set version = "0.2023.8.7.0.33.24" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/astropy-iers-data-{{ version }}.tar.gz
-  sha256: 151a4dc006ea5cb419ed52504856d9fbade2cc95f8ff5e026c79f49b2706de0a
+  sha256: 97337250d26a7720ebe72fc7c853478c28a26284cfd16267505559737bf02e7c
 
 build:
   noarch: python
